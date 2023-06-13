@@ -12,7 +12,7 @@ const { usersMd, favoritesMd } = require('./models/index');
 //    { logging: false, native: false }
 // );
 
-const database = new Sequelize( DB_DEPLOY,
+const database = new Sequelize(DB_DEPLOY,
    { logging: false, native: false }
 );
 
